@@ -1,0 +1,29 @@
+{
+  "name": "ikeyit-react-easy",
+  "version": "1.0.0",
+  "description": "Lightweight hooks for React",
+  "main": "dist/index.cjs.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikeyit/ikeyit-react-easy"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.79.1"
+  },
+  "author": "ikeyit@qq.com",
+  "license": "MIT"
+}
